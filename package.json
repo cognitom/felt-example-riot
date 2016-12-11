@@ -1,0 +1,19 @@
+{
+  "name": "felt-example-riot",
+  "version": "1.0.0",
+  "description": "An example for Riot with Felt",
+  "main": "main.js",
+  "scripts": {
+    "start": "felt -r riot --debug"
+  },
+  "author": "Tsutomu Kawamura",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "^0.3.6",
+    "riot": "^3.0.2"
+  },
+  "devDependencies": {
+    "felt": "^0.3.0",
+    "felt-recipe-riot": "^0.2.1"
+  }
+}
